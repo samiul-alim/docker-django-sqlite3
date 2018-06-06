@@ -1,0 +1,33 @@
+[
+  {
+    "model": "tasks.persons",
+    "pk": 1,
+    "fields": {
+      "name": "John Doe"
+    }
+  },
+  {
+    "model": "tasks.tasktypes",
+    "pk": 1,
+    "fields": {
+      "name": "Default"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$100000$SA5h8zpTbN8h$c9V/zVUMIM2pu7Dt5DBAG3kA71UaIsTeWKcfy22Hqys=",
+      "is_superuser": true,
+      "username": "admin",
+      "first_name": "",
+      "last_name": "",
+      "email": "admin@mail.com",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2018-06-05T18:35:28.855Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  }
+]

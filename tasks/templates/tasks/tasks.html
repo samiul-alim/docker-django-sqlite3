@@ -1,0 +1,26 @@
+{% extends 'tasks/layout/main.html' %}
+
+{% block content %}
+    <div class="content">
+        <h4>Tasks List</h4>
+        <table>
+            <thead>
+            <tr>
+                <th>Task</th>
+                <th>Assign To</th>
+                <th>Task Type</th>
+            </tr>
+            </thead>
+            <tbody>
+            {% for task in tasks %}
+                <tr>
+                    <td>{{ task.task.name }}</td>
+                    <td>{{ task.person.name }}</td>
+                    <td>{{ task.task.task_type.name }}</td>
+                </tr>
+            {% endfor %}
+
+            </tbody>
+        </table>
+    </div>
+{% endblock %}
